@@ -8,7 +8,7 @@ Exploratory data analysis of 9,994 sales records across 4 years (2014–2017).
 
 - **Furniture** is 2nd in revenue but last in profit — margin only 2.5%
 
-- **Binders** have the worst profit margin (-20%) among all sub-categories
+- **Binders** have the worst profit margin (-2.5%) among all sub-categories
 
 - Revenue grew **+51%** from 2014 ($484K) to 2017 ($733K)
 
