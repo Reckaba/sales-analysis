@@ -1,60 +1,48 @@
-\# 📊 Sales Data Analysis
-
-
+# 📊 Sales Data Analysis
 
 Exploratory data analysis of 9,994 sales records across 4 years (2014–2017).
 
+## 🔍 Key Insights
 
+- **Technology** leads both revenue ($836K) and profit ($145K)
 
-\## 🔍 Key Insights
+- **Furniture** is 2nd in revenue but last in profit — margin only 2.5%
 
-\- \*\*Technology\*\* leads both revenue ($836K) and profit ($145K)
+- **Binders** have the worst profit margin (-20%) among all sub-categories
 
-\- \*\*Furniture\*\* is 2nd in revenue but last in profit — margin only 2.5%
+- Revenue grew **+51%** from 2014 ($484K) to 2017 ($733K)
 
-\- \*\*Binders\*\* have the worst profit margin (-20%) among all sub-categories
+- **November–December** are consistently peak months across all years
 
-\- Revenue grew \*\*+51%\*\* from 2014 ($484K) to 2017 ($733K)
+- **West region** leads in revenue ($725K); South lags at $391K
 
-\- \*\*November–December\*\* are consistently peak months across all years
+- **New York City** is the top city by revenue ($255K)
 
-\- \*\*West region\*\* leads in revenue ($725K); South lags at $391K
+## 📈 Visualizations
 
-\- \*\*New York City\*\* is the top city by revenue ($255K)
+- Revenue & Profit by Category
 
+- Revenue Trend by Year
 
+- Revenue by Region
 
-\## 📈 Visualizations
+- Monthly Sales Heatmap
 
-\- Revenue \& Profit by Category
+- Profit Margin by Sub-Category
 
-\- Revenue Trend by Year
+- Top 10 Cities by Revenue
 
-\- Revenue by Region
+- Sales vs Profit Scatter Plot
 
-\- Monthly Sales Heatmap
+## 🛠 Tech Stack
 
-\- Profit Margin by Sub-Category
+- **Analysis:** pandas, numpy
 
-\- Top 10 Cities by Revenue
+- **Visualization:** matplotlib, seaborn
 
-\- Sales vs Profit Scatter Plot
+- **Dataset:** Superstore Sales (Kaggle) — 9,994 records, 21 features
 
-
-
-\## 🛠 Tech Stack
-
-\- \*\*Analysis:\*\* pandas, numpy
-
-\- \*\*Visualization:\*\* matplotlib, seaborn
-
-\- \*\*Dataset:\*\* Superstore Sales (Kaggle) — 9,994 records, 21 features
-
-
-
-\## 🚀 Quick Start
-
-```bash
+## 🚀 Quick Start
 
 git clone https://github.com/Reckaba/sales-analysis
 
@@ -63,6 +51,3 @@ cd sales-analysis
 pip install -r requirements.txt
 
 jupyter notebook notebooks/01\_sales\_analysis.ipynb
-
-```
-
